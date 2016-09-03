@@ -1,0 +1,100 @@
+﻿Build started 06.05.2013 17:56:32.
+     1>Project "C:\Qt\Qt5.0.2\5.0.2\msvc2010\untitled3\untitled3.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "debug\untitled3.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "debug\untitled3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         MOC avail.h
+         MOC dialog.h
+         MOC edit.h
+         MOC mainwindow.h
+         MOC stat.h
+         UIC avail.ui
+         UIC dialog.ui
+         UIC edit.ui
+         UIC mainwindow.ui
+         UIC stat.ui
+         RCC 1.qrc
+       ClCompile:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Qt\4.8.4\include\QtCore /IC:\Qt\4.8.4\include\QtGui /IC:\Qt\4.8.4\include /IC:\Qt\4.8.4\include\ActiveQt /Idebug /I. /I..\..\..\..\4.8.4\mkspecs\default /IC:\Qt\ch\GobChartsWidgetLib_MSVC2008_Release /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /Gm- /EHsc /MDd /GS- /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"debug\\" /Fd".\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt avail.cpp dialog.cpp edit.cpp main.cpp mainwindow.cpp phb.cpp stat.cpp debug\moc_avail.cpp debug\moc_dialog.cpp debug\moc_edit.cpp debug\moc_mainwindow.cpp debug\moc_stat.cpp debug\qrc_1.cpp -Zm200 -w34100 -w34189 
+         avail.cpp
+     1>avail.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>avail.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+     1>avail.cpp(26): warning C4018: '>' : signed/unsigned mismatch
+     1>avail.cpp(57): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>avail.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+     1>avail.cpp(49): warning C4101: 'newb2' : unreferenced local variable
+     1>avail.cpp(62): warning C4189: 'yd' : local variable is initialized but not referenced
+         dialog.cpp
+         edit.cpp
+         main.cpp
+     1>main.cpp(12): warning C4129: 'j' : unrecognized character escape sequence
+     1>main.cpp(12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>main.cpp(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+         mainwindow.cpp
+     1>mainwindow.cpp(132): warning C4018: '<' : signed/unsigned mismatch
+     1>mainwindow.cpp(196): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>mainwindow.cpp(225): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>mainwindow.cpp(226): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>mainwindow.cpp(233): warning C4101: 'sm' : unreferenced local variable
+         phb.cpp
+     1>phb.cpp(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>phb.cpp(28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>phb.cpp(48): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>phb.cpp(93): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>phb.cpp(117): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>phb.cpp(128): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>phb.cpp(157): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>phb.cpp(179): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>phb.cpp(214): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>phb.cpp(240): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         stat.cpp
+         moc_avail.cpp
+         moc_dialog.cpp
+         moc_edit.cpp
+         moc_mainwindow.cpp
+         moc_stat.cpp
+         qrc_1.cpp
+         Generating Code...
+       Link:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\untitled3.exe" /NOLOGO /LIBPATH:C:\Qt\ch\GobChartsWidgetLib_MSVC2008_Release /LIBPATH:C:\Qt\4.8.4\lib C:\Qt\4.8.4\lib\qtmaind.lib C:\Qt\4.8.4\lib\QtGuid4.lib C:\Qt\4.8.4\lib\QtCored4.lib gobchartswidget.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"debug\untitled3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Qt\Qt5.0.2\5.0.2\msvc2010\untitled3\debug\untitled3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 debug\avail.obj
+         debug\dialog.obj
+         debug\edit.obj
+         debug\main.obj
+         debug\mainwindow.obj
+         debug\phb.obj
+         debug\stat.obj
+         debug\moc_avail.obj
+         debug\moc_dialog.obj
+         debug\moc_edit.obj
+         debug\moc_mainwindow.obj
+         debug\moc_stat.obj
+         debug\qrc_1.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         untitled3.vcxproj -> C:\Qt\Qt5.0.2\5.0.2\msvc2010\untitled3\debug\untitled3.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"debug\\untitled3.exe;#1" /manifest debug\untitled3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "debug\untitled3.unsuccessfulbuild".
+         Touching "debug\untitled3.lastbuildstate".
+     1>Done Building Project "C:\Qt\Qt5.0.2\5.0.2\msvc2010\untitled3\untitled3.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:08.36

@@ -1,0 +1,40 @@
+﻿Build started 05.05.2013 22:08:12.
+     1>Project "C:\Qt\Qt5.0.2\5.0.2\msvc2010\untitled3\untitled3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "release\untitled3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Qt\ch\GobChartsWidgetLib_MSVC2008_Release /IC:\Qt\4.8.4\include\QtCore /IC:\Qt\4.8.4\include\QtGui /IC:\Qt\4.8.4\include /IC:\Qt\4.8.4\include\ActiveQt /Irelease /I. /I..\..\..\..\4.8.4\mkspecs\default /IC:\Qt\ch\GobChartsWidgetLib_MSVC2008_Release /Zi /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /D NDEBUG /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"release\\" /Fd".\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp -Zm200 -w34100 -w34189 
+         main.cpp
+     1>main.cpp(12): warning C4129: 'j' : unrecognized character escape sequence
+     1>main.cpp(12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>main.cpp(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+       Link:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"release\\untitled3.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Qt\ch\GobChartsWidgetLib_MSVC2008_Release /LIBPATH:C:\Qt\4.8.4\lib C:\Qt\4.8.4\lib\qtmain.lib C:\Qt\4.8.4\lib\QtGui4.lib C:\Qt\4.8.4\lib\QtCore4.lib gobchartswidget.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"release\untitled3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Qt\Qt5.0.2\5.0.2\msvc2010\untitled3\release\untitled3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 release\avail.obj
+         release\dialog.obj
+         release\edit.obj
+         release\main.obj
+         release\mainwindow.obj
+         release\phb.obj
+         release\stat.obj
+         release\moc_avail.obj
+         release\moc_dialog.obj
+         release\moc_edit.obj
+         release\moc_mainwindow.obj
+         release\moc_stat.obj
+         release\qrc_1.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         untitled3.vcxproj -> C:\Qt\Qt5.0.2\5.0.2\msvc2010\untitled3\release\untitled3.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"release\\untitled3.exe;#1" /manifest release\untitled3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "release\untitled3.unsuccessfulbuild".
+         Touching "release\untitled3.lastbuildstate".
+     1>Done Building Project "C:\Qt\Qt5.0.2\5.0.2\msvc2010\untitled3\untitled3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.36
